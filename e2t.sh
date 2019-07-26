@@ -1,4 +1,9 @@
-#!/bin/sh/
+#!/bin/sh
+
+if [ "$1" = "" ]; then
+    echo "Please provide an epub file."
+    exit
+fi
 
 EPUB=$1
 
